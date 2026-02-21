@@ -1,12 +1,11 @@
-# Sandstone
+# NullWeb
+<img width="259" height="194" alt="image" src="https://github.com/user-attachments/assets/28e65ce2-0305-4605-be5a-56c7f72ab2f1" />
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/a/af/USDA_Mineral_Sandstone_93c3955.jpg?20050520171627" height="128px">](https://commons.wikimedia.org/wiki/File:USDA_Mineral_Sandstone_93c3955.jpg)
-
-Sandstone is an experimental web proxy utilizing sandboxed iframes and no service worker. 
+NullWeb is a redistribution and redesign of Sandstone, the experimental web proxy utilizing sandboxed iframes and no service worker.
 
 Traditional web proxies like [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) require you to visit a domain that is unblocked, leading to a whack-a-mole situation of having these domains be blocked and trying to find new ones. Sandstone on the other hand is able to run from within a local HTML file, so it can avoid being blocked in many situations. Additionally, traditional web proxies do not sandbox the proxied pages, so any site can take control of the proxy as a whole and steal credentials. Sandstone avoids this by putting the proxied pages inside a [sandboxed iframe](https://www.w3schools.com/tags/att_iframe_sandbox.asp), so they absolutely cannot access the parent page.
 
-Try it here: https://sandstone.pages.dev/
+Try Sandstone here: https://sandstone.pages.dev/
 
 ## Features
 - Every proxied page runs in a sandboxed iframe
@@ -58,21 +57,3 @@ This is at a very early stage of development and lacks support for most web APIs
 3. Run `npm run build:prod` to bundle the frontend JS.
 4. Run `npm run start` which will start the web server
 
-## License
-```
-ading2210/sandstone - A web proxy using sandboxed iframes 
-Copyright (C) 2025 ading2210
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
-```
