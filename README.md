@@ -65,7 +65,7 @@ This is at a very early stage of development and lacks support for most web APIs
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
 
-                            Preamble
+### Preamble
 
   The GNU Affero General Public License is a free, copyleft license for
 software and other kinds of works, specifically designed to ensure
@@ -116,7 +116,7 @@ this license.
   The precise terms and conditions for copying, distribution and
 modification follow.
 
-                       TERMS AND CONDITIONS
+## TERMS AND CONDITIONS     
 
   0. Definitions.
 
